@@ -5,7 +5,7 @@ exports[`Navbar exists 1`] = `
   className="ui inverted fluid one item menu"
 >
   <h1
-    className="item"
+    className="ui item center header"
   >
     Fake Famous!
   </h1>
