@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Navbar from './Navbar';
 
 const App = () => {
-  return <div>Hello World!</div>;
+  return (
+    <Navbar />
+  );
 };
 
 ReactDOM.render(
