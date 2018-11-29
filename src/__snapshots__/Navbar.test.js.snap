@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar exists 1`] = `
+<nav
+  className="ui inverted fluid one item menu"
+>
+  <h1
+    className="item"
+  >
+    Fake Famous!
+  </h1>
+</nav>
+`;
