@@ -32,9 +32,9 @@ class App extends React.Component {
       <section>
         <Navbar />
         <section className="person">
-          <section className="ui card">
+          <section className="ui centered card">
             <Image pic={this.state.image} />
-            <section className="content center">
+            <section className="content">
               <Description
                 name={this.state.name}
                 job={this.state.claimToFame}
