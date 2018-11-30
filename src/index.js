@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Navbar from './Navbar';
-import Image from './Image';
-import Description from './Description';
-import Quote from './Quote';
+import Navbar from './components/Navbar';
+import Image from './components/Image';
+import Description from './components/Description';
+import Quote from './components/Quote';
 import faker from 'faker';
 
 class App extends React.Component {
