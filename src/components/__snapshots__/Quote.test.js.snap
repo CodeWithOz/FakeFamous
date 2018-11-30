@@ -3,9 +3,14 @@
 exports[`Quote component exists 1`] = `
 <p
   className="center aligned quote"
+  style={
+    Object {
+      "fontSize": "1.8em",
+    }
+  }
 >
-  " 
+  "
   test quote
-   "
+  "
 </p>
 `;
