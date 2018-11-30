@@ -4,18 +4,35 @@ import Navbar from './Navbar';
 import Image from './Image';
 import faker from 'faker';
 
-const App = () => {
-  return (
-    <div>
-      <Navbar />
-      <section className="person">
-        <section className="ui card">
-          <Image pic={faker.image.avatar()} />
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.generatePerson = () => {
+      return {
+        image: faker.image.avatar(),
+        name: `${faker.name.firstName()} ${faker.name.lastName()}`,
+        claimToFame: `${faker.name.jobTitle()}`,
+        quote: `${faker.lorem.sentence()}`
+      };
+    };
+
+    this.state = this.generatePerson();
+  }
+
+  render() {
+    return (
+      <section>
+        <Navbar />
+        <section className="person">
+          <section className="ui card">
+            <Image pic={this.state.image} />
+          </section>
         </section>
       </section>
-    </div>
-  );
-};
+    );
+  }
+}
 
 ReactDOM.render(
   <App />,
