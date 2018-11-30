@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image component exists 1`] = `
+<section
+  className="image"
+>
+  <img
+    alt="Fake famous person"
+    src="test.jpg"
+  />
+</section>
+`;
