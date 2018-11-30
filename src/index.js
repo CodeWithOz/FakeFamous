@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import Navbar from './Navbar';
 import Image from './Image';
 import Description from './Description';
+import Quote from './Quote';
 import faker from 'faker';
 
 class App extends React.Component {
@@ -33,6 +34,8 @@ class App extends React.Component {
                 name={this.state.name}
                 job={this.state.claimToFame}
               />
+              <div className="ui divider"></div>
+              <Quote words={this.state.quote} />
             </section>
           </section>
         </section>
