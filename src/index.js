@@ -20,6 +20,11 @@ class App extends React.Component {
     };
 
     this.state = this.generatePerson();
+    this.handleNextClick = this.handleNextClick.bind(this);
+  }
+
+  handleNextClick() {
+    this.setState(this.generatePerson());
   }
 
   render() {
@@ -46,6 +51,7 @@ class App extends React.Component {
               <section className="extra content">
                 <div
                   className="ui basic green button"
+                  onClick={this.handleNextClick}
                 >Next</div>
               </section>
             </section>
