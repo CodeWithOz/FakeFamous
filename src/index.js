@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Navbar from './Navbar';
 import Image from './Image';
+import Description from './Description';
 import faker from 'faker';
 
 class App extends React.Component {
@@ -27,6 +28,12 @@ class App extends React.Component {
         <section className="person">
           <section className="ui card">
             <Image pic={this.state.image} />
+            <section className="content center">
+              <Description
+                name={this.state.name}
+                job={this.state.claimToFame}
+              />
+            </section>
           </section>
         </section>
       </section>
