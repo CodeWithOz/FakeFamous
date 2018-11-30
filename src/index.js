@@ -36,6 +36,18 @@ class App extends React.Component {
               />
               <div className="ui divider"></div>
               <Quote words={this.state.quote} />
+              {/*
+                This button should be its own component. However, I have
+                not yet learned how to change a parent component's state
+                from a child component, so for now it remains hard-coded
+                into the parent component.
+              */}
+              <div className="ui divider"></div>
+              <section className="extra content">
+                <div
+                  className="ui basic green button"
+                >Next</div>
+              </section>
             </section>
           </section>
         </section>
