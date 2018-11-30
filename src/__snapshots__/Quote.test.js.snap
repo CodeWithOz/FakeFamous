@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote component exists 1`] = `
+<p
+  className="quote"
+>
+  " 
+  test quote
+   "
+</p>
+`;
