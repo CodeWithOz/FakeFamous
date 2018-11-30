@@ -3,12 +3,12 @@
 exports[`Description component exists 1`] = `
 <div>
   <h2
-    className="header"
+    className="center aligned header"
   >
     Firstname Lastname
   </h2>
   <p
-    className="description"
+    className="center aligned description"
   >
     Dummy job
   </p>

@@ -2,7 +2,7 @@
 
 exports[`Quote component exists 1`] = `
 <p
-  className="quote"
+  className="center aligned quote"
 >
   " 
   test quote

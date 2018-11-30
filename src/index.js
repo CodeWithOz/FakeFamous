@@ -49,10 +49,12 @@ class App extends React.Component {
               */}
               <div className="ui divider"></div>
               <section className="extra content">
-                <div
-                  className="ui basic green button"
-                  onClick={this.handleNextClick}
-                >Next</div>
+                <div className="center aligned next-button">
+                  <div
+                    className="ui basic green button"
+                    onClick={this.handleNextClick}
+                  >Next</div>
+                </div>
               </section>
             </section>
           </section>
