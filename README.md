@@ -1,4 +1,18 @@
+# Fake Famous! 🌟
+This is a simple React web app that displays information about
+supposedly famous people. The displayed info is generated using
+the [faker.js](https://github.com/marak/Faker.js/) library. A live
+demo can be seen at
+[https://fake-famous.herokuapp.com/](https://fake-famous.herokuapp.com/).
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Clone the repo to your local environment using
+```
+git clone https://github.com/CodeWithOz/FakeFamous
+```
 
 ## Available Scripts
 
