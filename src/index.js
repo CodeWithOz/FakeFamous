@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Image from './components/Image';
 import Description from './components/Description';
 import Quote from './components/Quote';
+import Button from './components/Button';
 import faker from 'faker';
 
 class App extends React.Component {
@@ -23,7 +24,7 @@ class App extends React.Component {
     this.handleNextClick = this.handleNextClick.bind(this);
   }
 
-  handleNextClick() {
+  handleNextClick = () => {
     this.setState(this.generatePerson());
   }
 
@@ -50,10 +51,10 @@ class App extends React.Component {
               <div className="ui divider"></div>
               <section className="extra content">
                 <div className="center aligned next-button">
-                  <div
-                    className="ui basic green button"
+                  <Button
                     onClick={this.handleNextClick}
-                  >Next</div>
+                    text='Next'
+                  />
                 </div>
               </section>
             </section>
