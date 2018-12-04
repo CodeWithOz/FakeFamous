@@ -6,7 +6,6 @@ test('Button component exists', () => {
   const button = renderer.create(
     <Button
       onClick={() => console.log('Dummy handler')}
-      color='green'
       text='Dummy button'
     />
   );
