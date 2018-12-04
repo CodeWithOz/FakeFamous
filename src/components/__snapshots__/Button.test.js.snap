@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component exists 1`] = `
+<div
+  className="ui basic green button"
+  onClick={[Function]}
+>
+  Dummy button
+</div>
+`;
