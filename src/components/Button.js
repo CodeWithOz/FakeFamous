@@ -9,4 +9,8 @@ const Button = props => {
   );
 };
 
+Button.defaultProps = {
+  color: 'green'
+};
+
 export default Button;
